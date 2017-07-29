@@ -1,20 +1,23 @@
 {
-	"name": "cajogos/biscuit-link",
-	"type": "library",
+	"name": "cajogos/biscuit-link-framework",
 	"description": "Set of classes used for Biscuit Link PHP Framework.",
-	"keywords": ["cache","caching","temp"],
-	"homepage": "https://github.com/cajogos/biscuit-link",
+	"keywords": ["framework", "biscuit", "elements", "templating"],
+	"homepage": "https://biscuit.link",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Carlos Ferreira",
 			"email": "c@rlos.rocks",
-			"homepage": "https://carlos.fyi",
-			"role": "Developer"
+			"homepage": "https://carlos.fyi"
 		}
 	],
 	"require": {
-		"php": ">=5.3.0"
+		"php": ">=5.5.0",
+		"smarty/smarty": "~3.1",
+		"guzzlehttp/guzzle": "~6.0",
+		"altorouter/altorouter": "1.1.0",
+		"cajogos/php-temp-cache": "1.1",
+		"erusev/parsedown": "1.6.2"
 	},
 	"autoload": {
 		"classmap": [
