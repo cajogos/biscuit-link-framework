@@ -49,9 +49,9 @@ class Template
 
 	public function addElement($element_id, Element $element)
 	{
-		if (!is_a($element, 'Element'))
+		if (!($element instanceof Element))
 		{
-			throw new Exception('You MUST add an Element object when using addElement function');
+			throw new \Exception('You MUST add an Element object when using addElement function');
 		}
 		$this->smarty->assign($element_id, $element->getString());
 	}
