@@ -1,5 +1,7 @@
 <?php
 
+namespace Cajogos\Biscuit;
+
 class Template
 {
 	private $smarty, $file = null;
