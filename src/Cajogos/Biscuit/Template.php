@@ -2,6 +2,9 @@
 
 namespace Cajogos\Biscuit;
 
+// Smarty dependency
+use Smarty;
+
 class Template
 {
 	private $smarty, $file = null;
