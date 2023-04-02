@@ -1,7 +1,12 @@
 {
 	"name": "cajogos/biscuit-link-framework",
 	"description": "Set of classes used for Biscuit Link PHP Framework.",
-	"keywords": ["framework", "biscuit", "elements", "templating"],
+	"keywords": [
+		"framework",
+		"biscuit",
+		"elements",
+		"templating"
+	],
 	"homepage": "https://biscuit.link",
 	"license": "MIT",
 	"authors": [
@@ -12,8 +17,8 @@
 		}
 	],
 	"require": {
-		"php": ">=5.5.0",
-		"smarty/smarty": "~3.1",
+		"php": "~7.0",
+		"smarty/smarty": "~3.1.47",
 		"guzzlehttp/guzzle": "~6.0",
 		"altorouter/altorouter": "1.1.0",
 		"cajogos/php-temp-cache": "1.1",
